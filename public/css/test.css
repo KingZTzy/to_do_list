@@ -1,0 +1,65 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://wallpaperaccess.com/full/33211.jpg");
+
+    /* Control the height of the image */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    right: 0;
+    margin: 170px;
+    margin-left: 100px;
+    max-width: 450px;
+    padding: 45px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: 1px solid grey;
+    background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: burlywood;
+    outline: 1px solid black;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}

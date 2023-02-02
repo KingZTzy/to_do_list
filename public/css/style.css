@@ -1,0 +1,44 @@
+.bg-info {
+    background-image: url("https://wallpaperaccess.com/full/33246.jpg");
+    color: #FFF0E5;
+}
+
+.navbar {
+    background-color: #5a5a5a;
+    font-family: monospace, serif;
+    letter-spacing: 0.05em;
+}
+
+.dropdown-menu {
+    background-color: #5a5a5a;
+    color: FFF0E5;
+    font-family: monospace, serif;
+    letter-spacing: 0.05em;
+    
+}
+
+.card-body {
+    border: 1px solid white;
+    background-color: #5a5a5a;
+    color: #FFF0E5;
+    font-family: monospace, serif;
+    opacity: 0.8;
+}
+
+.form {
+    border: 1px solid white;
+    background-color: #5a5a5a;
+    color: #FFF0E5;
+}
+
+.list-group {
+    border: 1px solid white;
+    background-color: #5a5a5a;
+    color: #FFF0E5;
+    opacity: 0.8;
+}
+
+.list-group-item {
+    font-family: monospace, serif;
+    font-size: small;
+}
